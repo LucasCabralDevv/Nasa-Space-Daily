@@ -6,7 +6,7 @@ plugins {
 }
 
 ext {
-    koinVersion = "2.2.2"
+    koinVersion = "2.0.1"
     moshiVersion = "1.8.0"
     glideVersion = "4.10.0"
     retrofitVersion = "2.6.1"
