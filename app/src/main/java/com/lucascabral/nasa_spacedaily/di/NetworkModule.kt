@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit
 
 val networkModule = module {
 
-    single(named("BASE_URL")) { "https://api.nasa.gov/planetary" }
+    single(named("BASE_URL")) { "https://api.nasa.gov/planetary/" }
 
     single {
         val interceptor = HttpLoggingInterceptor()
